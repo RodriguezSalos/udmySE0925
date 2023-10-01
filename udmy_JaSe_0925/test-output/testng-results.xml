@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-28T00:11:33Z" name="Default suite" finished-at="2023-09-28T00:11:47Z" duration-ms="14395">
+  <suite started-at="2023-10-01T15:37:19Z" name="Default suite" finished-at="2023-10-01T15:37:58Z" duration-ms="39032">
     <groups>
     </groups>
-    <test started-at="2023-09-28T00:11:33Z" name="Default test" finished-at="2023-09-28T00:11:47Z" duration-ms="14395">
-      <class name="com.herokuapp.theinternet.PositiveTests">
-        <test-method signature="firstTest()[pri:0, instance:com.herokuapp.theinternet.PositiveTests@79dc5318]" started-at="2023-09-28T00:11:33Z" name="firstTest" finished-at="2023-09-28T00:11:47Z" duration-ms="14382" status="PASS">
+    <test started-at="2023-10-01T15:37:19Z" name="Default test" finished-at="2023-10-01T15:37:58Z" duration-ms="39032">
+      <class name="com.herokuapp.theinternet.negativeTest">
+        <test-method signature="incorrectPassword()[pri:0, instance:com.herokuapp.theinternet.negativeTest@481ba2cf]" started-at="2023-10-01T09:37:19Z" name="incorrectPassword" finished-at="2023-10-01T09:37:39Z" duration-ms="19513" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-      </class> <!-- com.herokuapp.theinternet.PositiveTests -->
+        </test-method> <!-- incorrectPassword -->
+        <test-method signature="incorrectUserName()[pri:0, instance:com.herokuapp.theinternet.negativeTest@481ba2cf]" started-at="2023-10-01T09:37:39Z" name="incorrectUserName" finished-at="2023-10-01T09:37:58Z" duration-ms="19508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUserName -->
+      </class> <!-- com.herokuapp.theinternet.negativeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
